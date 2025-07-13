@@ -20,6 +20,7 @@ import com.projectname.utilities.ReadConfig;
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
+	
 
 	ReadConfig readConfig = new ReadConfig();
 
@@ -37,6 +38,8 @@ public class BaseClass {
 	public void setup()
 	{
 
+		System.out.println("Browser setup");
+		
 		//launch browser
 		switch(browser.toLowerCase())
 		{
