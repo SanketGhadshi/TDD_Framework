@@ -38,7 +38,7 @@ public class BaseClass {
 	public void setup()
 	{
 
-		System.out.println("Browser setup");
+		System.out.println("Browser");
 		
 		//launch browser
 		switch(browser.toLowerCase())
