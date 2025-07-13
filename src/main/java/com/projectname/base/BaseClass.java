@@ -21,7 +21,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class BaseClass {
 	
-
 	ReadConfig readConfig = new ReadConfig();
 
 	String url = readConfig.getBaseUrl();
@@ -37,8 +36,6 @@ public class BaseClass {
 	@BeforeClass
 	public void setup()
 	{
-
-		System.out.println("Browser");
 		
 		//launch browser
 		switch(browser.toLowerCase())
